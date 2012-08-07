@@ -85,7 +85,7 @@
 
       this.$element
         .removeClass('collapse')
-        .css('overflow', '')
+        .css('overflow', 'visible')
         [dimension](size || 'auto')
         [0].offsetWidth
 
